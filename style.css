@@ -7,23 +7,13 @@ body {
     background-color: rgb(247, 212, 160);
 }
 
-h2#header {
-    text-align: center;
-    font-size: 2cm;
-    background-color: #5209fc;
-    margin: 200px 475px;
-    padding: 10px;
-    color: black;
-    border-radius: 10px;
-    width: 50%;
 
-}
 
 nav {
     text-align: center;
     margin: 200px 475px;
     padding: 10px;
-    background-color: #4388f8;
+    background-color: #f9f9f9;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
@@ -33,25 +23,21 @@ nav {
     margin-left: 25%;
     margin-right: 25%;
     font-size: 20px;
-    z-index: 100;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    overflow: hidden;
-    background-color: #4388f8;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.456);
-    width: 50%;
-}
 
-nav ul li {
-    float: left;
+
+h2#header {
+    text-align: center;
+    font-size: 2cm;
+    margin: 200px 475px;
     padding: 10px;
-    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    width: 50%;
+
 }
+
 
 section {
     text-align: left;
@@ -59,11 +45,15 @@ section {
     padding: 10px;
 }
 
-section#intro {
-    text-align: center;
+article {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    text-align: justify;
 }
 
-.column-container {
+
+
+.Noticias {
     column-count: 3;
     column-rule-style: solid;
     grid-gap: 20px;
@@ -73,10 +63,14 @@ section#intro {
 }
 
 
-article {
-    break-inside: avoid;
-    margin-bottom: 20px;
+#intro {
+    text-align: center;
 }
+
+
+
+
+
 
 
 
